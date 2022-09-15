@@ -1,0 +1,3 @@
+FUNCTION-POOL ZMHP_INT_CLOUD_COMM_UP.       "MESSAGE-ID ..
+
+* INCLUDE LZMHP_INT_CLOUD_COMM_UPD...        " Local class definition

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZMHP_CL_OM_AEND_POST</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Class fort report ZMHP_RP_IT_AEND_POST</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_OM_AEND_POST</CLSNAME>
+     <CMPNAME>BOOK_MANAGER_RELATION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Datenelement zur Domäne BOOLE: TRUE (=&apos;X&apos;) und FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_OM_AEND_POST</CLSNAME>
+     <CMPNAME>CHECK_STATUS_RANGE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prepare status selection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_OM_AEND_POST</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Class constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_OM_AEND_POST</CLSNAME>
+     <CMPNAME>GET_OM_AEND_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Get relevant infotype changes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_OM_AEND_POST</CLSNAME>
+     <CMPNAME>POST_OM_AEND</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Post IT_AEND entries to infotype</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_OM_AEND_POST</CLSNAME>
+     <CMPNAME>PREPARE_PROTOCOL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prepare ALV output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_OM_AEND_POST</CLSNAME>
+     <CMPNAME>START_POST</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Start post of infotype changes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_OM_AEND_POST</CLSNAME>
+     <CMPNAME>STATUS_HANDLER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Working class for table ZMHP_INT_IT_AEND</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

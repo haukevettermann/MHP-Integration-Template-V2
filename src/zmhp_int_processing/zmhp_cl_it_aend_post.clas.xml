@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZMHP_CL_IT_AEND_POST</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Class fort report ZMHP_RP_IT_AEND_POST</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_IT_AEND_POST</CLSNAME>
+     <CMPNAME>CHECK_STATUS_RANGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepare status selection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_IT_AEND_POST</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_IT_AEND_POST</CLSNAME>
+     <CMPNAME>GET_IT_AEND_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get relevant infotype changes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_IT_AEND_POST</CLSNAME>
+     <CMPNAME>IT_AEND_LOCKED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for ZMHP_INT_IT_AEND</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_IT_AEND_POST</CLSNAME>
+     <CMPNAME>IT_AEND_NOCHANGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for ZMHP_INT_IT_AEND</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_IT_AEND_POST</CLSNAME>
+     <CMPNAME>POST_IT_AEND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Post IT_AEND entries to infotype</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_IT_AEND_POST</CLSNAME>
+     <CMPNAME>PREPARE_PROTOCOL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Prepare ALV output</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_IT_AEND_POST</CLSNAME>
+     <CMPNAME>START_POST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Start post of infotype changes</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZMHP_CL_HRPA_INFTY_0003</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Infotyp 0003 (Abrechnungsstatus)</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_HRPA_INFTY_0003</CLSNAME>
+     <CMPNAME>A_EXTENDED_CHANGES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erweiterte Änderungen (entsprechend PU03)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_HRPA_INFTY_0003</CLSNAME>
+     <CMPNAME>CHECK_ABRDT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfen, ob &apos;abgerechnet bis&apos; mit Cluster übereinstimmt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_HRPA_INFTY_0003</CLSNAME>
+     <CMPNAME>CHECK_ABWD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abwicklungsende 1 und 2 prüfen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_HRPA_INFTY_0003</CLSNAME>
+     <CMPNAME>CHECK_ARCHIVE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Verprobung gegen archivierte Daten (Infotyp 0283)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_HRPA_INFTY_0003</CLSNAME>
+     <CMPNAME>CHECK_PRDAT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>persönlich tiefstes Rückrechnungsdatum Abrechnung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_HRPA_INFTY_0003</CLSNAME>
+     <CMPNAME>CHECK_PRTEV</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Persönliches tiefstes Rückrechnungsdatum Zeitauswertung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_HRPA_INFTY_0003</CLSNAME>
+     <CMPNAME>CHECK_RRDAT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Rückrechnungsdatum verproben</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_HRPA_INFTY_0003</CLSNAME>
+     <CMPNAME>FILTER_PAY_TIME_RELEVANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Infotyp 0283 anhand Zeit- oder Abrechnungsrelevanz filtern</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_HRPA_INFTY_0003</CLSNAME>
+     <CMPNAME>PAYROLL_LOCK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Personalnummer für die Abrechnung sperren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_HRPA_INFTY_0003</CLSNAME>
+     <CMPNAME>SPECIAL_MODE_GET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erweiterter Modus zum Ändern spez. Felder auslesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_HRPA_INFTY_0003</CLSNAME>
+     <CMPNAME>SPECIAL_MODE_RESET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erweiterter Modus zum Ändern spez. Felder zurücksetzen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_HRPA_INFTY_0003</CLSNAME>
+     <CMPNAME>SPECIAL_MODE_SET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erweiterter Modus zum Ändern spez. Felder setzen (-&gt;PU03)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMHP_CL_HRPA_INFTY_0003</CLSNAME>
+     <CMPNAME>SPECIFIC_COMPUTATIONS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Infotypspezifische Verprobungen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

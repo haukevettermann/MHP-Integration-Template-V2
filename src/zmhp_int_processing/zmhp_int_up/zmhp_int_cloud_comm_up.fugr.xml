@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>MHP Integration Template Cloud Comm Up</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZMHP_INT_CLOUD_COMM_UPTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZMHP_INT_CLOUD_COMM_UP</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZMHP_INT_EXTRACT_SENDER</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>MHP Integration Template Sender</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>OBJECT_TYPE</PARAMETER>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>XML_STRING</PARAMETER>
+       <TYP>XSTRING</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>STATUS</PARAMETER>
+       <TYP>CHAR1</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>OBJECT_TYPE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Einstelliges Kennzeichen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>XML_STRING</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>STATUS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Einstelliges Kennzeichen</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
